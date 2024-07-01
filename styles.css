@@ -1,0 +1,84 @@
+body {
+    background-color:rgb(232, 220, 220);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgb(124, 21, 10);
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 2em;
+}
+header nav ul li a {
+    color: rgb(183, 200, 214);
+}
+
+
+ol, 
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer ul li a {
+    color: aliceblue;
+}
+
+header a i {
+    color: black;
+    font-size: 33px;
+    padding: 40px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.seccion-1 {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+img {
+    padding: auto;
+    overflow-clip-margin: content-box ;
+    overflow: clip ;
+}
+
+.seccion-2 img {
+width: 100%;
+}
+
+footer{
+    background-color: rgb(129, 17, 17);
+    width: 100%;
+    display: block;
+    padding: auto;
+}
+
+.footer h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas. Este es un ejemplo de media queires */
+  }
+
+  
